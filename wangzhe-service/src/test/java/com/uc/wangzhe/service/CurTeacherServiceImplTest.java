@@ -39,6 +39,7 @@ public class CurTeacherServiceImplTest {
 	@Test
 	public void testGet() {
 		CurTeacher te = service.get(2);
+		System.out.println("test git commit");
 		System.out.println(te.getName());
 	}
 
